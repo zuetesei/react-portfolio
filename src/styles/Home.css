@@ -2,7 +2,12 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #ffffff;
+}
+
+img {
+    max-height: 100px;
+    width: auto;
 }
 
 .about {
@@ -13,14 +18,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #e9d35b;
+    color: #c31463;
     height: 50px;
 }
 
@@ -32,7 +37,7 @@
 .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    color: black;
 }
 
 .skills {

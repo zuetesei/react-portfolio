@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,700&display=swap');
+
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
     color: #ffffff;
 }
 
@@ -23,10 +24,16 @@ img {
 }
 
 .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins";
+    font-weight: 100;
     font-size: 80px;
     color: #c31463;
     height: 50px;
+}
+
+.about h3 {
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
 .about .prompt {

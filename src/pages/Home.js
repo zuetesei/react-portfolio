@@ -10,9 +10,11 @@ function Home() {
     return (
         <div className='Home'>
             <div className='about'>
-                <img src={Photo}></img>
-                <h2> Zue Tesei </h2>
-                <h3> Software Engineer </h3>
+                <img src={Photo} />
+                <div>
+                    <h2> Zuleika Tesei </h2>
+                    <h3> Software Engineer </h3>
+                </div>
                 <Typed
                     strings={[
                         "I design efficient user interfaces",

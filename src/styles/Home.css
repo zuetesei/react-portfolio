@@ -3,7 +3,8 @@
 .home {
     width: 100%;
     align-items: center;
-    color: #ffffff;
+    /* color: #ffffff; */
+    background-color: #F4E9D9;
 }
 
 img {
@@ -19,7 +20,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #F4E9D9;
     color: #000000;
 }
 
@@ -27,13 +28,14 @@ img {
     font-family: "Poppins";
     font-weight: 100;
     font-size: 80px;
-    color: #c31463;
+    color: #D64E46;
     height: 50px;
 }
 
 .about h3 {
     font-family: "Poppins";
     font-weight: 500;
+    color: #24242D;
 }
 
 .about .prompt {
@@ -44,7 +46,7 @@ img {
 .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: black;
+    color: #24242D;
 }
 
 .skills {

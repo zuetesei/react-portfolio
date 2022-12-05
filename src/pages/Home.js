@@ -14,13 +14,14 @@ function Home() {
                     <h3> Software Engineer </h3>
                 </div>
                 <Typed
+                    className='intro-typed'
                     strings={[
-                        "I design efficient user interfaces",
-                        "I build cool programs",
-                        "I care about the planet",
+                        "I design beautiful UIs",
+                        "DRY code",
+                        "I care about the Earth",
                     ]}
                     typeSpeed={150}
-                    backSpeed={150}
+                    backSpeed={250}
                     loop
                 />
                 <div className='prompt'>

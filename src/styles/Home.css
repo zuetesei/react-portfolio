@@ -7,12 +7,8 @@
     background-color: #F4E9D9;
 }
 
-img {
-    max-height: 200px;
-    width: auto;
-}
 
-.about {
+.about-home {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -20,25 +16,26 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #F4E9D9;
-    color: #000000;
+    background-color: var(--background-primary);
+    color: var(--dark-text);
 }
 
-.about h2 {
+.about-home h2 {
     font-family: "Poppins";
     font-weight: 100;
     font-size: 80px;
-    color: #D64E46;
+    color: var(--red);
     height: 50px;
 }
 
-.about h3 {
+.about-home h3 {
     font-family: "Poppins";
     font-weight: 500;
-    color: #24242D;
+    color: var(--dark-text);
+    ;
 }
 
-.about .prompt {
+.about-home .prompt {
     width: 40%;
     font-size: 30px;
 }
@@ -46,51 +43,5 @@ img {
 .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: #24242D;
-}
-
-.skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.skills h1 {
-    color: #3e497a;
-}
-
-.skills .list {
-    list-style: none;
-    width: 60%;
-}
-
-.list span {
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-    .about h2 {
-        font-size: 40px;
-    }
-
-    .about .prompt {
-        margin-top: 10px;
-        font-size: 20px;
-        width: 80%;
-    }
-
-    .skills {
-        text-align: center;
-    }
-
-    .list {
-        padding: 0;
-    }
-
-    .skills h2 {
-        font-size: 30px;
-    }
+    color: var(--dark-text);
 }

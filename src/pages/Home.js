@@ -8,7 +8,7 @@ import '../styles/Home.css'
 function Home() {
     return (
         <div className='Home'>
-            <div className='about'>
+            <div className='about-home'>
                 <div>
                     <h2> Zuleika Tesei </h2>
                     <h3> Software Engineer </h3>
@@ -28,19 +28,6 @@ function Home() {
                     <LinkedInIcon />
                     <GithubIcon />
                 </div>
-            </div>
-            <div className='skills'>
-                <h1> Skills </h1>
-                <ol className='list'>
-                    <li className='item'>
-                        <h2> Front-End </h2>
-                        <span> React, Bootstrap </span>
-                    </li>
-                    <li className='item'>
-                        <h2> Back-End </h2>
-                        <span> JavaScript, Node.js </span>
-                    </li>
-                </ol>
             </div>
         </div>
     );

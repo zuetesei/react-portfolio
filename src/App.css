@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,700&display=swap');
 
-.App {
-  text-align: center;
+:root {
+  --red: #D64E46;
+  --green: #9FA666;
+  --blue: #D4E7FB;
+  --nude: #F2DDC0;
+  --background-primary: #F4E9D9;
+  --dark-text: #24242D;
+  --brown-text: #867569;
+  --light-text: #F5F4F2;
+  --background-secondary: #FAF9F8;
 }
+
+/* .App {
+  text-align: center;
+} */
 
 body {
   padding: 0;
   margin: 0;
-  background-color: #F4E9D9;
+  background-color: var(--background-primary);
 }
 
 /* .App-logo {

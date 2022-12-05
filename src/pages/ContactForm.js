@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import Footer from '../components/Footer';
 
 function ContactForm() {
 
@@ -40,7 +41,7 @@ function ContactForm() {
                     />
                 </FloatingLabel>
             </Form>
-
+            < Footer />
         </Container >
 
     )

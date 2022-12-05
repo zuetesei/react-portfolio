@@ -46,7 +46,6 @@
 }
 
 .prompt svg {
-    font-size: 60px;
+    font-size: 50px;
     margin: 5px;
-    color: var(--dark-text);
 }

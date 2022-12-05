@@ -18,16 +18,18 @@ function ContactForm() {
             <Row>
                 <Col xs={12} md={8}>
                     <h2> Contact. </h2>
-                    <p> T: +1 (916) 479-6064 <br></br>
-                        E: zuleikatesei@gmail.com
-                    </p>
-                    <p> Schedule a chat!  </p>
-                    <p> Follow me here: </p>
-                    <InstaIcon />
-                    <PinterestIcon />
-                    <TwitterIcon />
-                    <LinkedInIcon />
-                    <GithubIcon />
+                    <div className='contact-info'>
+                        <p> T: +1 (916) 479-6064 <br></br>
+                            E: zuleikatesei@gmail.com
+                        </p>
+                        <p> Schedule a chat!  </p>
+                        <p> Follow me here: </p>
+                    </div>
+                    <a href='https://www.instagram.com/love.zue/' target="_blank" rel="noreferrer"> <InstaIcon /> </a>
+                    <a href='https://www.pinterest.com/internationalzue/' > <PinterestIcon /> </a>
+                    <a href='https://twitter.com/thenationalzue' > <TwitterIcon /> </a>
+                    <a href='https://www.linkedin.com/in/zuleika-tesei/' target="_blank" rel="noreferrer"> <LinkedInIcon /> </a>
+                    <a href='https://github.com/zuetesei' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
 
                 </Col>
                 <Col xs={6} md={4}>

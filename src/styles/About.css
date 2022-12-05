@@ -25,7 +25,7 @@ img {
 }
 
 .accordion-item {
-    color: var(--red);
+    color: var(--brown-text);
 }
 
 .skills {
@@ -35,12 +35,18 @@ img {
     align-items: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    color: var(--brown-text);
 }
 
 .skills h1 {
-    color: var(--dark-text);
-    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    letter-spacing: 3px;
     transform: rotate(-90deg);
+}
+
+.linkToProjects {
+    font-family: 'Abril Fatface';
+    font-size: x-large;
 }
 
 

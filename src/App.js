@@ -7,7 +7,7 @@ import ContactForm from './pages/ContactForm';
 // import ProjectDisplay from './pages/ProjectDisplay';
 
 import Nav from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<ContactForm />} />
         </Routes>
-        < Footer />
+        {/* < Footer /> */}
       </Router>
     </div>
   );

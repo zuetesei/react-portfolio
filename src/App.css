@@ -23,6 +23,11 @@ body {
   background-color: var(--background-primary);
 }
 
+a {
+  text-decoration: none;
+  color: var(--brown-text);
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -3,6 +3,10 @@
     flex-direction: column;
     justify-content: space-around;
     margin-top: 100px;
+    font-family: 'Abril Fatface';
+}
+
+.contact-info {
     font-family: 'Poppins';
     font-weight: 300;
 }
@@ -21,6 +25,6 @@
 
 .btn-primary {
     width: 100px;
-    background-color: var(--dark-text);
+    background-color: var(--brown-text);
     color: var(--blue);
 }

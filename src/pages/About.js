@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AboutMe from '../assets/about.png';
 import EmailIcon from '@material-ui/icons/Email';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -32,8 +33,8 @@ function About() {
                             </Accordion.Item>
                         </Accordion>
                     </div>
-                    <div>
-                        Check out my latest projects <i> here</i>.
+                    <div className='linkToProjects'>
+                        Check out my latest <Link to='/projects'> projects</Link>.
                     </div>
                 </Col>
 
@@ -43,10 +44,10 @@ function About() {
                         <img src={AboutMe} alt='Zue portrait' />
 
                         <div className='socials'>
-                            <EmailIcon />
-                            <LinkedInIcon />
-                            <GithubIcon />
-                            <InstagramIcon />
+                            <a href='mailto: zuleikatesei@gmail.com'> <EmailIcon /> </a>
+                            <a href='https://www.linkedin.com/in/zuleika-tesei/' target="_blank" rel="noreferrer"> <LinkedInIcon /> </a>
+                            <a href='https://github.com/zuetesei' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
+                            <a href='https://www.instagram.com/love.zue/' target="_blank" rel="noreferrer"> <InstagramIcon /> </a>
                         </div>
 
                     </div>

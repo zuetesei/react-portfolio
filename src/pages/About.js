@@ -20,21 +20,20 @@ function About() {
                 <Col xs={6} md={4}>
 
                     <div className='skills'>
-                        <h2> Skills </h2>
+                        <h1> Skills </h1>
                         <Accordion defaultActiveKey={['0']} alwaysOpen>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header> Frontend </Accordion.Header>
                                 <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1">
+                            <Accordion.Item eventKey="1" alwaysOpen>
                                 <Accordion.Header> Backend </Accordion.Header>
                                 <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
                             </Accordion.Item>
                         </Accordion>
                     </div>
                     <div>
-                        Check out my projects here:
-                        <button> Projects </button>
+                        Check out my latest projects <i> here</i>.
                     </div>
                 </Col>
 

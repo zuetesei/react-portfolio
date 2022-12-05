@@ -25,17 +25,22 @@ img {
 }
 
 .accordion-item {
-    color: var(--green);
+    color: var(--red);
 }
 
 .skills {
     font-family: 'Poppins';
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-.skills h2 {
+.skills h1 {
     color: var(--dark-text);
     text-transform: uppercase;
+    transform: rotate(-90deg);
 }
 
 

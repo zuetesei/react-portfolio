@@ -22,7 +22,7 @@ function ContactForm() {
                         <p> T: +1 (916) 479-6064 <br></br>
                             E: zuleikatesei@gmail.com
                         </p>
-                        <p> Schedule a chat!  </p>
+                        <p> Schedule a <a href='https://calendly.com/zuetesei/30min' target='_blank' rel="noreferrer">chat</a>!  </p>
                         <p> Follow me here: </p>
                     </div>
                     <a href='https://www.instagram.com/love.zue/' target="_blank" rel="noreferrer"> <InstaIcon /> </a>

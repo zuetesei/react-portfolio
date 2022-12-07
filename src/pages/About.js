@@ -1,11 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import AboutMe from '../assets/about.png';
-import EmailIcon from '@material-ui/icons/Email';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GithubIcon from '@material-ui/icons/GitHub';
-
+// import { Link } from 'react-router-dom';
+import MyCard from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,6 +14,12 @@ function About() {
         <Container className='about'>
             <Row>
                 <Col xs={6} md={4}>
+                    <MyCard />
+
+                </Col>
+
+                {/* big col - portrait */}
+                <Col xs={12} md={8}>
 
                     <div className='skills'>
                         <h1> Skills </h1>
@@ -32,24 +33,6 @@ function About() {
                                 <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
                             </Accordion.Item>
                         </Accordion>
-                    </div>
-                    <div className='linkToProjects'>
-                        Check out my latest <Link to='/projects'> projects</Link>.
-                    </div>
-                </Col>
-
-                {/* big col - portrait */}
-                <Col xs={12} md={8}>
-                    <div className='about-photo'>
-                        <img src={AboutMe} alt='Zue portrait' />
-
-                        <div className='socials'>
-                            <a href='mailto: zuleikatesei@gmail.com'> <EmailIcon /> </a>
-                            <a href='https://www.linkedin.com/in/zuleika-tesei/' target="_blank" rel="noreferrer"> <LinkedInIcon /> </a>
-                            <a href='https://github.com/zuetesei' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
-                            <a href='https://www.instagram.com/love.zue/' target="_blank" rel="noreferrer"> <InstagramIcon /> </a>
-                        </div>
-
                     </div>
 
                     <div className='aboutme'>

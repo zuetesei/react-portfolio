@@ -1,9 +1,6 @@
 .projects {
-    width: 100%;
-    height: auto;
+    margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 

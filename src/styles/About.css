@@ -1,3 +1,7 @@
+.about {
+    margin-top: 80px;
+}
+
 .about-photo {
     display: flex;
     justify-content: center;

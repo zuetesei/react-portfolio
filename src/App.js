@@ -1,13 +1,15 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as
+    Router,
+  Routes,
+  Route
+} from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Connect from './pages/Connect';
 import Projects from './pages/Projects';
-// import ProjectDisplay from './pages/ProjectDisplay';
-// import Nav from './components/Navbar';
-// import Footer from './components/Footer';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Connect />} />
         </Routes>
-        {/* < Footer /> */}
+        < Footer />
       </Router>
     </div>
   );

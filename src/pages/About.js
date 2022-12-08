@@ -20,37 +20,42 @@ function About() {
 
                 {/* big col - portrait */}
                 <Col xs={12} md={8}>
-
-                    <div className='skills'>
-                        <h1> Skills </h1>
-                        <Accordion defaultActiveKey={['0']} alwaysOpen>
-                            <Accordion.Item eventKey="0">
-                                <Accordion.Header> Frontend </Accordion.Header>
-                                <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="1" alwaysOpen>
-                                <Accordion.Header> Backend </Accordion.Header>
-                                <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
-                            </Accordion.Item>
-                        </Accordion>
-                    </div>
-
                     <div className='aboutme'>
                         <p>
-                            My name is Zuleika Tesei and I am Software Engineer based in Sacramento, CA with a specific interest in UX design
-                            and frontend development. I have experience with HTML, CSS, JavaScript, ExpressJS, Node.js, Handlebars, MySQL, Sequelize and MongoDB.
+                            👋🏾 My name is Zuleika, but you can call me Zue for short.
                             <br></br>
                             <br></br>
-
-                            I have a background in administrative work. I was born in Palau, raised in Sacramento, and earned my BA in Politics, Philosophy, and Economics
-                            from the King’s College in NYC. I worked government roles for Palau, learning about the nation's efforts in environmental
+                            👩🏽‍💻 I'm Software Engineer based in Sacramento, CA with special interests in UX design
+                            and frontend development.
+                            {/* I have experience with HTML, CSS, JavaScript, ExpressJS, Node.js, Handlebars, MySQL, Sequelize and MongoDB. */}
+                            <br></br>
+                            <br></br>
+                            🇵🇼 I was born in <a href="https://www.google.com/maps/place/Palau/@5.439037,133.0442,7z/data=!3m1!4b1!4m5!3m4!1s0x328445b4a2af0399:0x12ed1edd39a1ebbb!8m2!3d7.51498!4d134.58252" target="_blank" rel="noreferrer"> Palau
+                            </a>, my family's island home.
+                            <br></br>
+                            <br></br>
+                            🧑🏽‍🎓 I earned my BA in Politics, Philosophy, and Economics from the King’s College in NYC.
+                            <br></br>
+                            <br></br>
+                            👔 I worked government roles for Palau, learning about the nation's efforts in environmental
                             conservation and the global climate change fight.
                             <br></br>
                             <br></br>
-
-                            I am seeking to work with a team that xyz...
-
+                            🤝 I am seeking to work with a team that xyz...
                         </p>
+                        <div className='skills'>
+                            <h1> Skills </h1>
+                            <Accordion defaultActiveKey={['0']} alwaysOpen>
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header> Frontend </Accordion.Header>
+                                    <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1" alwaysOpen>
+                                    <Accordion.Header> Backend </Accordion.Header>
+                                    <AccordionBody> HTML, CSS, Bootstrap, Bulma, JavaScript, React, React Bootstrap</AccordionBody>
+                                </Accordion.Item>
+                            </Accordion>
+                        </div>
                     </div>
                 </Col>
 

@@ -9,8 +9,8 @@ function Home() {
     return (
         <Container className='home'>
             <Row>
-                <Col> <MyCard /> </Col>
-                <Col> What should go here? </Col>
+                <Col xs={6} md={4}> <MyCard /> </Col>
+                <Col xs={12} md={8}> What should go here? </Col>
             </Row>
         </Container>
 

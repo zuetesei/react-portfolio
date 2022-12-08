@@ -14,10 +14,10 @@ function ContactForm() {
     return (
         <Container className="contact">
             <Row>
-                <Col xs={12} md={8}>
+                <Col xs={6} md={4}>
                     <MyCard />
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={12} md={8}>
                     <h2> Contact. </h2>
                     <div className='contact-info'>
                         <p> <LocalPhoneIcon /> 9164796064 <br></br>

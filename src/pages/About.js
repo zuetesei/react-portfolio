@@ -37,11 +37,10 @@ function About() {
                             🧑🏽‍🎓 I earned my BA in Politics, Philosophy, and Economics from the King’s College in NYC.
                             <br></br>
                             <br></br>
-                            👔 I worked government roles for Palau, learning about the nation's efforts in environmental
-                            conservation and the global climate change fight.
+                            🧡 I am passionate about family, healthy seas, and x...
                             <br></br>
                             <br></br>
-                            🤝 I am seeking to work with a team that xyz...
+                            🤝 I'm seeking to...
                         </p>
                         <div className='skills'>
                             <h1> Skills </h1>

@@ -1,6 +1,6 @@
 .contact {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
     margin-top: 80px;
     font-family: 'Abril Fatface';
 }

@@ -14,12 +14,11 @@
 }
 
 /* .App {
-  text-align: center;
+  margin-top: 80;
 } */
 
 body {
   padding: 0;
-  /* margin-top: 80; */
   background-color: var(--background-primary);
 }
 

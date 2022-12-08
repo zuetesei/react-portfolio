@@ -1,39 +1,19 @@
 import React from 'react';
-// import EmailIcon from '@mui/icons-material/MailOutline';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
-// import GithubIcon from '@material-ui/icons/GitHub';
-// import InstagramIcon from '@material-ui/icons/Instagram';
-// import Typed from 'react-typed';
-// import '../styles/Home.css'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import MyCard from '../components/Card';
+import '../styles/Home.css';
 
 function Home() {
     return (
-        <div className='Home'>
-            <div className='about-home'>
-                <MyCard />
-                {/* <div>
-                    <h2> Zuleika Tesei </h2>
-                    <h3> Software Engineer </h3>
-                </div>
-                <Typed
-                    className='intro-typed'
-                    strings={[
-                        "I design beautiful UIs",
-                        "DRY code",
-                        "I care about the Earth",
-                    ]}
-                    typeSpeed={150}
-                    backSpeed={250}
-                    loop
-                /> */}
-                {/* <div className='prompt'>
-                    <a href='mailto: zuleikatesei@gmail.com'> <EmailIcon /> </a>
-                    <a href='https://github.com/zuetesei' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
-                    <a href='https://www.linkedin.com/in/zuleika-tesei/' target="_blank" rel="noreferrer"> <LinkedInIcon /> </a>
-                </div> */}
-            </div>
-        </div>
+        <Container className='home'>
+            <Row>
+                <Col> <MyCard /> </Col>
+                <Col> What should go here? </Col>
+            </Row>
+        </Container>
+
     );
 }
 

@@ -8,12 +8,6 @@ import '../styles/Footer.css';
 function Footer() {
     return (
         <div className='footer'>
-            <div className='socialMedia'>
-                <InstaIcon />
-                <TwitterIcon />
-                <LinkedInIcon />
-                <GithubIcon />
-            </div>
             <p> &copy; 2022 lovezue.com </p>
         </div>
     );

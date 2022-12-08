@@ -1,51 +1,13 @@
 .home {
-    width: 100%;
-    align-items: center;
-    /* color: #ffffff; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
     background-color: #F4E9D9;
 }
 
-.about-home {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--background-primary);
-    color: var(--dark-text);
-}
-
-.about-home h2 {
-    font-family: "Abril Fatface";
-    font-size: 80px;
-    color: var(--red);
-    height: 50px;
-    padding-bottom: 75px;
-}
-
-.about-home h3 {
-    font-family: "Abril Fatface";
-    letter-spacing: 6px;
-    color: var(--dark-text);
-    padding-bottom: 20px;
-}
-
-.intro-typed {
+/* .intro-typed {
     font-weight: 100;
     font-size: 50px;
     font-family: 'Poppins';
     color: var(--red);
-}
-
-.about-home .prompt {
-    width: 40%;
-    font-size: 30px;
-    padding-top: 40px;
-}
-
-.prompt svg {
-    font-size: 50px;
-    margin: 5px;
-}
+} */

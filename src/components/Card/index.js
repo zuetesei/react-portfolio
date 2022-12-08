@@ -8,8 +8,8 @@ import GithubIcon from '@material-ui/icons/GitHub';
 import InstaIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import PinterestIcon from '@material-ui/icons/Pinterest';
-// import ContactModal from '../components/ContactModal';
 import { Link } from 'react-router-dom';
+import '../../styles/Card.css';
 
 function MyCard() {
     return (
@@ -30,6 +30,7 @@ function MyCard() {
                 <ListGroup.Item> <Link to='/projects'> Projects </Link> </ListGroup.Item>
                 <ListGroup.Item> <Link to='/about'> About </Link> </ListGroup.Item>
                 <ListGroup.Item> <Link to='/contact'> Connect </Link> </ListGroup.Item>
+                <ListGroup.Item> <Link to='/'> Resume </Link> </ListGroup.Item>
             </ListGroup>
             <Card.Body>
 

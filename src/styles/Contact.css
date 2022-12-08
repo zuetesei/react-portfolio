@@ -1,30 +1,31 @@
 .contact {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 80px;
     font-family: 'Abril Fatface';
 }
 
-.contact-info {
+.contact-info,
+.card-text {
     font-family: 'Poppins';
-    font-weight: 300;
-}
-
-.modal-header {
     font-weight: 500;
 }
 
-.form-headers {
-    font-weight: 300;
+.contact-info {
+    min-width: 300px;
 }
 
-.modalBtn {
-    display: flex;
+.modal-header {
+    font-family: 'Abril Fatface';
 }
 
 .btn-primary {
-    width: 100px;
-    background-color: var(--brown-text);
-    color: var(--blue);
+    border-radius: 50px;
+    width: 150px;
+    background-color: var(--blue);
+
+}
+
+.btn-primary:hover {
+    color: pink;
 }

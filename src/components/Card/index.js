@@ -18,11 +18,8 @@ function MyCard() {
             <Card.Body>
                 <Card.Title> Zuleika Tesei </Card.Title>
                 <Card.Text>
-
-                    Software Engineer
-                    {/* with the ability and confidence to learn
-                    & collaborate in fast-paced environments paired with an eagerness for
-                    personal growth in the craft of engineering. */}
+                    <h3 className="profession"> Software Engineer </h3>
+                    <p className="resume"> Download my <a href="#"> resume </a>. </p>
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
@@ -30,7 +27,6 @@ function MyCard() {
                 <ListGroup.Item> <Link to='/projects'> Projects </Link> </ListGroup.Item>
                 <ListGroup.Item> <Link to='/about'> About </Link> </ListGroup.Item>
                 <ListGroup.Item> <Link to='/contact'> Connect </Link> </ListGroup.Item>
-                <ListGroup.Item> <Link to='/'> Resume </Link> </ListGroup.Item>
             </ListGroup>
             <Card.Body>
 

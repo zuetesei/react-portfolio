@@ -19,9 +19,10 @@ function MyCard() {
                 <Card.Title> Zuleika Tesei </Card.Title>
                 <Card.Text>
 
-                    Full Stack Web Develepor with the ability and confidence to learn
+                    Software Engineer
+                    {/* with the ability and confidence to learn
                     & collaborate in fast-paced environments paired with an eagerness for
-                    personal growth in the craft of engineering.
+                    personal growth in the craft of engineering. */}
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">

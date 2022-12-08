@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import EmailIcon from '@material-ui/icons/Email';
 import SendIcon from '@mui/icons-material/Send';
-import '../styles/Contact.css';
+import '../../styles/Contact.css';
 
 function ContactModal() {
     const [show, setShow] = useState(false);

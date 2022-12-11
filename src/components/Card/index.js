@@ -19,7 +19,7 @@ function MyCard() {
                 <Card.Title> Zuleika Tesei </Card.Title>
                 <Card.Text>
                     <h3 className="profession"> Software Engineer </h3>
-                    <p className="resume"> Download my <a href="#"> resume </a>. </p>
+                    <p className="resume"> Download my <a href="/" target="_blank" rel="noreferrer"> resume </a>. </p>
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">

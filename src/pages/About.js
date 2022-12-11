@@ -22,7 +22,7 @@ function About() {
                 <Col xs={12} md={8}>
                     <div className='aboutme'>
                         <p>
-                            👋🏾 My name is Zuleika, but you can call me Zue for short.
+                            👋🏾 My name is Zuleika.
                             <br></br>
                             <br></br>
                             👩🏽‍💻 I'm Software Engineer based in Sacramento, CA with special interests in UX design
@@ -37,13 +37,13 @@ function About() {
                             🧑🏽‍🎓 I earned my BA in Politics, Philosophy, and Economics from the King’s College in NYC.
                             <br></br>
                             <br></br>
-                            🧡 I am passionate about family, healthy seas, and x...
+                            🧡 I am passionate about self-imporovement, exploring the world, family, and healthy seas.
                             <br></br>
                             <br></br>
-                            🤝 I'm seeking to...
+                            🤝 I'm seeking opportunities as a Junior Software Engineer or Front End Developer.
                         </p>
                         <div className='skills'>
-                            <h1> Skills </h1>
+                            <h4> Skills </h4>
                             <Accordion defaultActiveKey={['0']} alwaysOpen>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header> Frontend </Accordion.Header>

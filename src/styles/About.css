@@ -43,7 +43,7 @@ img {
     color: var(--brown-text);
 }
 
-.skills h1 {
+.skills h4 {
     font-family: 'Abril Fatface';
     letter-spacing: 3px;
     transform: rotate(-90deg);

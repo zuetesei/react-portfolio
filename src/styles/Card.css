@@ -16,3 +16,7 @@
 .resume {
     font-size: 12px;
 }
+
+.card-body {
+    padding: 8px 18px;
+}

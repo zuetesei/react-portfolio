@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2f151f00.css",
-    "main.js": "/react-portfolio/static/js/main.1fa4cc08.js",
+    "main.css": "/react-portfolio/static/css/main.cc8f2826.css",
+    "main.js": "/react-portfolio/static/js/main.85027007.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ocean-bg.mp4": "/react-portfolio/static/media/ocean-bg.89f69a58e29c5a51e6ff.mp4",
     "static/media/QualityTime.png": "/react-portfolio/static/media/QualityTime.832d81250fae524e7e0c.png",
@@ -10,12 +10,12 @@
     "static/media/Only-cooks.png": "/react-portfolio/static/media/Only-cooks.81092c624d902ec348c2.png",
     "static/media/Weather-dashboard.png": "/react-portfolio/static/media/Weather-dashboard.5c1905bdb7f221a77535.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2f151f00.css.map": "/react-portfolio/static/css/main.2f151f00.css.map",
-    "main.1fa4cc08.js.map": "/react-portfolio/static/js/main.1fa4cc08.js.map",
+    "main.cc8f2826.css.map": "/react-portfolio/static/css/main.cc8f2826.css.map",
+    "main.85027007.js.map": "/react-portfolio/static/js/main.85027007.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f151f00.css",
-    "static/js/main.1fa4cc08.js"
+    "static/css/main.cc8f2826.css",
+    "static/js/main.85027007.js"
   ]
 }

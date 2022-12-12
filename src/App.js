@@ -6,16 +6,15 @@ import {
   Route
 } from "react-router-dom";
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 import About from './pages/About';
 import Connect from './pages/Connect';
-import Projects from './pages/Projects';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className='App'>
       <Router>
-        {/* <Nav /> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />

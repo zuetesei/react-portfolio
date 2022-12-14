@@ -45,10 +45,10 @@ function ProjectDisplay() {
 
                                     <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange}>
                                         <ToggleButton id="tbg-btn-1" value={1}>
-                                            <GithubIcon />
+                                            <a href='https://github.com/zuetesei/cook-book' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
                                         </ToggleButton>
                                         <ToggleButton id="tbg-btn-2" value={2}>
-                                            <LanguageIcon />
+                                            <a href='https://onlycooks.herokuapp.com/' target="_blank" rel="noreferrer"> <LanguageIcon /> </a>
                                         </ToggleButton>
                                     </ToggleButtonGroup>
 
@@ -66,10 +66,10 @@ function ProjectDisplay() {
 
                                     <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange}>
                                         <ToggleButton id="tbg-btn-1" value={1}>
-                                            <GithubIcon />
+                                            <a href='https://github.com/zuetesei/aesthete' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
                                         </ToggleButton>
                                         <ToggleButton id="tbg-btn-2" value={2}>
-                                            <LanguageIcon />
+                                            <a href='https://blooming-river-84199.herokuapp.com/' target="_blank" rel="noreferrer"> <LanguageIcon /> </a>
                                         </ToggleButton>
                                     </ToggleButtonGroup>
 
@@ -90,10 +90,10 @@ function ProjectDisplay() {
 
                                     <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange}>
                                         <ToggleButton id="tbg-btn-1" value={1}>
-                                            <GithubIcon />
+                                            <a href='https://github.com/zuetesei/Quality_Time' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
                                         </ToggleButton>
                                         <ToggleButton id="tbg-btn-2" value={2}>
-                                            <LanguageIcon />
+                                            <a href='https://joel57.github.io/Quality_Time/' target="_blank" rel="noreferrer"> <LanguageIcon /> </a>
                                         </ToggleButton>
                                     </ToggleButtonGroup>
 
@@ -111,10 +111,10 @@ function ProjectDisplay() {
 
                                     <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange}>
                                         <ToggleButton id="tbg-btn-1" value={1}>
-                                            <GithubIcon />
+                                            <a href='https://github.com/zuetesei/weather-dashboard' target="_blank" rel="noreferrer"> <GithubIcon /> </a>
                                         </ToggleButton>
                                         <ToggleButton id="tbg-btn-2" value={2}>
-                                            <LanguageIcon />
+                                            <a href='https://zuetesei.github.io/weather-dashboard/' target="_blank" rel="noreferrer"> <LanguageIcon /> </a>
                                         </ToggleButton>
                                     </ToggleButtonGroup>
 

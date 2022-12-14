@@ -50,7 +50,7 @@ function ContactModal() {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="primary" onClick={handleClose}>
+                    <Button variant="primary" onClick={handleClose} action="mailto: zuleikatesei@gmail.com">
                         <SendIcon />
                     </Button>
                 </Modal.Footer>

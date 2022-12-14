@@ -37,10 +37,10 @@ function About() {
                             🧑🏽‍🎓 I earned my BA in Politics, Philosophy, and Economics from the King’s College in NYC.
                             <br></br>
                             <br></br>
-                            🧡 I am passionate about self-imporovement, exploring the world, family, and healthy seas.
+                            🧡 I am passionate about spending time with family, adventure, self-improvement, and making a positive impact through my work.
                             <br></br>
                             <br></br>
-                            🤝 I'm seeking opportunities as a Junior Software Engineer or Front End Developer.
+                            🤝 I'm looking for opportunities as a Junior Software Engineer, Front End Developer, or React Developer.
                         </p>
                         <div className='skills'>
                             <h4> Skills </h4>

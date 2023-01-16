@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=League+Spartan:wght@200;300;500;700&display=swap');
 
 :root {
-  --red: #D64E46;
-  --green: #9FA666;
-  --blue: #D4E7FB;
-  --nude: #F2DDC0;
-  --background-primary: #F4E9D9;
+  --background-primary: #FFFFF;
   --dark-text: #24242D;
   --brown-text: #867569;
   --light-text: #F5F4F2;
-  --background-secondary: #FAF9F8;
 }
 
 /* .App {
@@ -18,46 +12,64 @@
 } */
 
 body {
+  font-family: "League Spartan";
+  font-weight: 300;
   padding: 0;
   background-color: var(--background-primary);
 }
 
 a {
   text-decoration: none;
-  color: var(--brown-text);
+  color: #004E5C;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* home styles */
+.text-container {
+  padding-left: 100px;
+  justify-content: flex-end;
+  max-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-container {
+  padding-bottom: 50px;
+  max-height: 620px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.intro-text {
+  font-family: 'Abril Fatface';
+  font-size: 3em;
+}
+
+.line {
+  border-bottom: 2px solid black;
+
+}
+
+/* footer styles */
+.footer {
+  background-color: #f5f5f5;
+  padding: 1rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #004E5C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.copyright-text {
+  text-align: center;
+  color: #004E5C;
+}
+
+.sitemap {
+  padding-right: 40px;
+}
+
+.social-media-links ul,
+.sitemap ul {
+  list-style-type: none;
+  padding: 0;
+}

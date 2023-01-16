@@ -12,7 +12,7 @@ const introdata = {
         third: "Palauan woman",
         fourth: "lifelong learner."
     },
-    description: "Open to full time positions as a Frontend Engineer for a climate-conscious company & also open to collaborating on projects for fun!",
+    description: "Open to opportunities as a Frontend Engineer for a climate-conscious company.",
     your_img_url: "https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 }
 
@@ -25,6 +25,37 @@ const portfoliodata = [
         github_link: '',
         deployed_link: '',
     }
+]
+const dataabout = {
+    title: 'A Bit About Myself',
+    aboutme: "I'm a Software Engineer based in Sacramento, CA with special interests in UX design and frontend development. In my past life, I was an administrative professional in the public sector.  I am passionate about making the world a better place, starting with myself. You can often find me reading, doing cardio, and hanging out with my family and friends. I’m open to collaborating on projects and full time opportunities for mission-driven & climate-conscious companies."
+}
+
+const skills = [
+    {
+        title: 'Frontend',
+        tools: 'HTML5, CSS, ReactJS, JavaScript, GraphQL, PWA, NPM'
+    },
+    {
+        title: 'Backend',
+        tools: 'Node.js, Express.js, MongoDB, MySQL,'
+    },
+    {
+        title: 'Deployment',
+        tools: 'Heroku, '
+    }
+]
+
+const services = [
+    {
+        title: 'UI & UX Design',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+    },
+    {
+        title: 'Squarespace Design & Implementation',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+    },
+
 ]
 
 const contactdata = {
@@ -50,5 +81,8 @@ export {
     introdata,
     portfoliodata,
     contactdata,
-    socialdata
+    socialdata,
+    dataabout,
+    services,
+    skills
 };

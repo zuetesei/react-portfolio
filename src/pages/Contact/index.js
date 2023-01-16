@@ -104,14 +104,14 @@ export const Contact = () => {
                             <br />
                             {contactdata.hasOwnProperty("your_phone") ? (
                                 <p>
-                                    <strong>Phone:</strong> {contactdata.your_phone}
+                                    <strong>Phone:</strong> <u>{contactdata.your_phone} </u>
                                 </p>
                             ) : (
                                 ""
                             )}
                         </address>
                         <p> Schedule a <a href='https://calendly.com/zuetesei/30min' target='_blank' rel="noreferrer">chat</a>!  </p>
-                        <p> Currently based in: {contactdata.location}</p>
+                        <p> Currently based in: <u>{contactdata.location} </u> </p>
                     </Col>
 
                     {/* contact form start */}

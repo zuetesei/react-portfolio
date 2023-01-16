@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import withRouter from "../hooks/withRouter"
 import Homepage from "../pages/Home/index";
-import ProjectCarousel from "../pages/Portfolio/index";
+import { ProjectCarousel } from "../pages/Portfolio/index";
 import { Contact } from "../pages/Contact/index";
 import { About } from "../pages/About/index";
 import { Socialicons } from "../components/Socials/index";

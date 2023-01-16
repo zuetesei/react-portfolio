@@ -1,4 +1,4 @@
-.row {
+.project-sec {
     padding-top: 7rem;
 }
 
@@ -8,7 +8,6 @@
 }
 
 .project {
-    font-family: 'League Spartan';
     overflow: hidden;
     width: 255px;
     text-align: center;
@@ -19,8 +18,9 @@
 }
 
 .proj-title h5 {
+    font-family: 'League Spartan';
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 19spx;
     font-weight: 700;
     color: var(--text-color);
     text-transform: uppercase;
@@ -33,8 +33,4 @@
 .proj-footer {
     margin-top: 20px;
     background-color: var(--text-color-3);
-}
-
-.rec-arrow {
-    color: red;
 }

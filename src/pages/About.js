@@ -1,11 +1,9 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import MyCard from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
-import '../styles/About.css';
 import AccordionBody from 'react-bootstrap/esm/AccordionBody';
 
 function About() {
@@ -14,7 +12,7 @@ function About() {
         <Container className='about'>
             <Row>
                 <Col xs={6} md={4}>
-                    <MyCard />
+
 
                 </Col>
 

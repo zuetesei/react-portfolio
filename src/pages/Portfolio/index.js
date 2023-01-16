@@ -1,29 +1,41 @@
 import React from 'react';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import {
     FaGithub,
     FaChrome
 } from 'react-icons/fa';
 import './style.css';
+import { Container, Row, Col } from "react-bootstrap";
 import Carousel from 'react-elastic-carousel';
-import { portfoliodata } from '../../content_options';
+import { meta, portfoliodata } from '../../content_options';
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+    { width: 768, itemsToShow: 3 }
 ]
 
-const ProjectCarousel = () => {
+export const ProjectCarousel = () => {
     return (
-        <>
-            <section>
+        <HelmetProvider>
+            <Container className='project-sec'>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title> About | {meta.title}</title>
+                    <meta name="description" content={meta.description} />
+                </Helmet>
+                <Row className="mb-5 pt-md-3">
+                    <Col lg="8">
+                        <h1 className="display-4 mb-4"> Portfolio </h1>
+                        <hr className="t_border my-4 ml-0 text-left" />
+                    </Col>
+                </Row>
                 <div className="row">
                     <Carousel breakPoints={breakPoints}>
                         {portfoliodata.map((data, i) => {
                             return (
                                 <div className="project">
                                     <div className="project-thumbnail">
-                                        <a href='#'><img src={data.img} alt='' /></a>
+                                        <img src={data.img} alt={data.title} />
                                     </div>
                                     <div className="project-body">
                                         <div className="proj-title">
@@ -44,10 +56,8 @@ const ProjectCarousel = () => {
                         })}
                     </Carousel>
                 </div>
-            </section>
-        </>
-    )
-}
-
-export default ProjectCarousel;
+            </Container>
+        </HelmetProvider >
+    );
+};
 

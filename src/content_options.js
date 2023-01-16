@@ -18,14 +18,49 @@ const introdata = {
 
 const portfoliodata = [
     {
+        title: 'Only Cooks',
+        img: '../assets/Aesthete.png',
+        technologies_used: 'HTML, CSS, JavaScript, React, Node, GraphQL, Apollo',
+        github_link: 'https://github.com/zuetesei/cook-book',
+        deployed_link: 'https://onlycooks.herokuapp.com/',
+    },
+    {
         title: 'Aesthete',
         img: '../assets/Aesthete.png',
-        description: '',
-        technologies_used: '',
-        github_link: '',
-        deployed_link: '',
-    }
+        technologies_used: 'HTML, CSS, JavaScript, Bulma, Bootstrap, Express, Handlebars, mySQL, Sequelize',
+        github_link: 'https://github.com/zuetesei/aesthete',
+        deployed_link: 'https://blooming-river-84199.herokuapp.com/',
+    },
+    {
+        title: 'Quality Time',
+        img: '../assets/Aesthete.png',
+        technologies_used: 'HTML, CSS, JavaScript, Bulma, MealDB, CocktailDB',
+        github_link: 'https://github.com/zuetesei/Quality_Time',
+        deployed_link: 'https://joel57.github.io/Quality_Time/',
+    },
+    {
+        title: 'Instagram Clone',
+        img: '../assets/Aesthete.png',
+        technologies_used: 'MERN',
+        github_link: '#',
+        deployed_link: '#',
+    },
+    {
+        title: 'Tinder Clone',
+        img: '../assets/Aesthete.png',
+        technologies_used: 'MERN',
+        github_link: '#',
+        deployed_link: '#',
+    },
+    {
+        title: 'Weather Dashboard',
+        img: '../assets/Aesthete.png',
+        technologies_used: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
+        github_link: 'https://github.com/zuetesei/weather-dashboard',
+        deployed_link: 'https://zuetesei.github.io/weather-dashboard/',
+    },
 ]
+
 const dataabout = {
     title: 'A Bit About Myself',
     aboutme: "I'm a Software Engineer based in Sacramento, CA with special interests in UX design and frontend development. In my past life, I was an administrative professional in the public sector.  I am passionate about making the world a better place, starting with myself. You can often find me reading, doing cardio, and hanging out with my family and friends. I’m open to collaborating on projects and full time opportunities for mission-driven & climate-conscious companies."

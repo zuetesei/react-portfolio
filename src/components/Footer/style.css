@@ -1,0 +1,28 @@
+/* footer styles */
+.footer {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #004E5C;
+}
+
+.copyright-text {
+    text-align: center;
+    color: #004E5C;
+}
+
+.sitemap {
+    padding-right: 40px;
+}
+
+.social-media-links ul,
+.sitemap ul {
+    list-style-type: none;
+    padding: 0;
+}

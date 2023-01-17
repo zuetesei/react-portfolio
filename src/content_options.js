@@ -9,7 +9,7 @@ const introdata = {
     animated: {
         first: "Web Designer",
         second: "Software Engineer",
-        third: "Palauan woman",
+        third: "world explorer",
         fourth: "lifelong learner."
     },
     description: "Open to opportunities as a Frontend Engineer for a climate-conscious company.",
@@ -54,7 +54,7 @@ const portfoliodata = [
     },
     {
         title: 'Weather Dashboard',
-        img: 'https://lh3.googleusercontent.com/pyTl7caoOiL3cEFIy0KFlQ6mautS3MfWLj5-ix_pZ6L943Of5nx5cUvIZW1WyIN05Sxp6nxIgzwTRkd00Gb-Zu2kseNsS8s7xTYP78X9YN3t53x9X7ktHMma-mzAhbcc1u1w8Se4i6TV4keFTyWge_NxKL9niuYf7Na0d08gM02cRNhYWAivuU0w7i34nEamm4W4fdmicwfi9k2P76qZP6xGfm_ASwBcExpFVqjU_GSyE-51e6Pc1wQh2WlraIYZYPMQrdzpDz88HASYI_n5ewXZkkWZmSglp_qDsmUrtpd5wBmcBHm2cBY_a_UMSJjbdTVByr2kMx5igQGoPlrkfsjVNf6GpXnFJ9w9lvm-50mC_lZ3xX3T_sL6aqOpWbO7ILwLlD7GwA7ok9dn72qb9cxCAP_t25Wcx4TGHrE2R8wAYziIPmhnp-1DHX-Pxk4Val0Hi0Folbx1QnmE_AHF8pQTqluaSHFCnZtzkvHs08u_GE9NNmlHaPN0uSrignnXiyxyuQwfMGdUR-ITHlVVEzFD2h8UhqMb-hQEC-o4Ryv8AeWi4XLFos83CBNkMv3RiaOcedA8Hnbc-UeAkNzTgM_qXALvQBsYXosbGHiJmXvjO_Mg0jp-FVBUpXO_Xj_JSt_QPvxNvPIrwoDdidx4tNa_qPuiOmndRTeAm4Tss2asBOGaFEF8JphKPwSg9ZggunYELI4EphrIMyoN69LHmmvFBl94qpsHxCfvS7vB-oIdA4gmTlf04clI5PjNbOmZYkPqqnmnwYIk43Lrx1cqn9RLduTfjBY-wOA_Cu4zweTzpoDaaSFefo7pc8IabA4WAtI2AsM04PacGU0eS29XByfypncqQ0L-jOMswhmlOIBGAQ5AHROGUiBnJcSw2tg2P1UobjrVy23IBNwhiV4PsfsBJW23nIBvE0o08t0WcbCRVoQVpZkT6m3C_FMq6lplY-sWo3VpHk-HXZg84gp9Gko=w1114-h527-no?authuser=1',
+        // img: 'https://lh3.googleusercontent.com/pyTl7caoOiL3cEFIy0KFlQ6mautS3MfWLj5-ix_pZ6L943Of5nx5cUvIZW1WyIN05Sxp6nxIgzwTRkd00Gb-Zu2kseNsS8s7xTYP78X9YN3t53x9X7ktHMma-mzAhbcc1u1w8Se4i6TV4keFTyWge_NxKL9niuYf7Na0d08gM02cRNhYWAivuU0w7i34nEamm4W4fdmicwfi9k2P76qZP6xGfm_ASwBcExpFVqjU_GSyE-51e6Pc1wQh2WlraIYZYPMQrdzpDz88HASYI_n5ewXZkkWZmSglp_qDsmUrtpd5wBmcBHm2cBY_a_UMSJjbdTVByr2kMx5igQGoPlrkfsjVNf6GpXnFJ9w9lvm-50mC_lZ3xX3T_sL6aqOpWbO7ILwLlD7GwA7ok9dn72qb9cxCAP_t25Wcx4TGHrE2R8wAYziIPmhnp-1DHX-Pxk4Val0Hi0Folbx1QnmE_AHF8pQTqluaSHFCnZtzkvHs08u_GE9NNmlHaPN0uSrignnXiyxyuQwfMGdUR-ITHlVVEzFD2h8UhqMb-hQEC-o4Ryv8AeWi4XLFos83CBNkMv3RiaOcedA8Hnbc-UeAkNzTgM_qXALvQBsYXosbGHiJmXvjO_Mg0jp-FVBUpXO_Xj_JSt_QPvxNvPIrwoDdidx4tNa_qPuiOmndRTeAm4Tss2asBOGaFEF8JphKPwSg9ZggunYELI4EphrIMyoN69LHmmvFBl94qpsHxCfvS7vB-oIdA4gmTlf04clI5PjNbOmZYkPqqnmnwYIk43Lrx1cqn9RLduTfjBY-wOA_Cu4zweTzpoDaaSFefo7pc8IabA4WAtI2AsM04PacGU0eS29XByfypncqQ0L-jOMswhmlOIBGAQ5AHROGUiBnJcSw2tg2P1UobjrVy23IBNwhiV4PsfsBJW23nIBvE0o08t0WcbCRVoQVpZkT6m3C_FMq6lplY-sWo3VpHk-HXZg84gp9Gko=w1114-h527-no?authuser=1',
         technologies_used: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
         github_link: 'https://github.com/zuetesei/weather-dashboard',
         deployed_link: 'https://zuetesei.github.io/weather-dashboard/',

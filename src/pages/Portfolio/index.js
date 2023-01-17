@@ -47,8 +47,8 @@ export const ProjectCarousel = () => {
                                     </div>
                                     <div className="proj-footer">
                                         <div className="btn">
-                                            <a href={data.github_link} target="_blank" className="btn"> <FaGithub /> </a>
-                                            <a href={data.deployed_link} target="_blank" className="btn"> <FaChrome /> </a>
+                                            <a href={data.github_link} target="_blank" rel="noreferrer" className="btn"> <FaGithub /> </a>
+                                            <a href={data.deployed_link} target="_blank" rel="noreferrer" className="btn"> <FaChrome /> </a>
                                         </div>
                                     </div>
                                 </div>

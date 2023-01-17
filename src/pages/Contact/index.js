@@ -93,7 +93,7 @@ export const Contact = () => {
                         <h3 className="color_sec py-4">Get in touch</h3>
                         <p> Looking to collaborate on a project or just want to say hi? <br></br>
                             Fill out the form and I’ll do my best to reply within 24 hours! <br></br>
-                            If contact forms are not your thing, email me directly!
+                            If contact forms are not your thing, email me directly.
                         </p>
                         <address>
                             <strong>Email:</strong>{" "}

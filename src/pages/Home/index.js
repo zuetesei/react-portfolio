@@ -4,15 +4,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_options";
 import "./style.css";
-// import { Image } from 'react-bootstrap';
-// import HeaderPhoto from '../../assets/header-photo.png';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import MyCard from '../components/Card';
-// import '../styles/Home.css';
-// import VideoBG from '../assets/ocean-bg.mp4';
-// // import OceanGif from '../assets/ocean.gif';
 
 function Homepage() {
     return (

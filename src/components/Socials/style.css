@@ -1,4 +1,4 @@
-.stick_follow_icon {
+.stick-follow-icon {
     top: 50%;
     left: 30px;
     width: 20px;
@@ -7,19 +7,19 @@
     margin-top: -100px;
 }
 
-.stick_follow_icon ul {
+.stick-follow-icon ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.stick_follow_icon svg {
+.stick-follow-icon svg {
     width: 1.3em;
     height: 1.3em;
     fill: var(--text-color)
 }
 
-.stick_follow_icon p {
+.stick-follow-icon p {
     top: 70px;
     left: -24px;
     width: 68px;
@@ -33,7 +33,7 @@
     transform: rotate(-90deg);
 }
 
-.stick_follow_icon ul li {
+.stick-follow-icon ul li {
     display: block;
     font-size: 12px;
     text-align: center;
@@ -41,7 +41,7 @@
     transition: all .3s;
 }
 
-.stick_follow_icon p:after {
+.stick-follow-icon p:after {
     top: 9px;
     right: -48px;
     width: 40px;
@@ -53,7 +53,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .stick_follow_icon {
+    .stick-follow-icon {
         width: unset;
         height: unset;
         position: static;
@@ -65,7 +65,7 @@
         align-items: center;
     }
 
-    .stick_follow_icon p {
+    .stick-follow-icon p {
         top: unset;
         left: unset;
         width: unset;
@@ -77,11 +77,11 @@
         margin-right: 65px;
     }
 
-    .stick_follow_icon ul {
+    .stick-follow-icon ul {
         margin-bottom: 20px;
     }
 
-    .stick_follow_icon ul li {
+    .stick-follow-icon ul li {
         display: inline;
         margin-bottom: 29px;
         margin-right: 10px;

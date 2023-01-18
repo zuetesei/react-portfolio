@@ -12,7 +12,7 @@ const introdata = {
         third: "world explorer",
         fourth: "lifelong learner."
     },
-    description: "Open to opportunities as a Frontend Engineer for a climate-conscious company.",
+    description: "Interested in UX/UI positions or Frontend Development for a climate-conscious company.",
     your_img_url: "https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 }
 
@@ -63,7 +63,7 @@ const portfoliodata = [
 
 const dataabout = {
     title: 'A Bit About Myself',
-    aboutme: "I'm a Software Engineer based in Sacramento, CA with special interests in UX design and frontend development. In my past life, I was an administrative professional in the public sector.  I am passionate about making the world a better place, starting with myself. You can often find me reading, doing cardio, and hanging out with my family and friends. I’m open to collaborating on projects and full time opportunities for mission-driven & climate-conscious companies."
+    aboutme: "I am a Software Engineer based in Sacramento, CA with special interests in UX/UI and frontend development. Before transitioning into this career, I was an administrative professional in the public sector. My prior experience has provided me with strong organizational, attention to detail, and communication skills, all of which are valuable in software engineering. Passionate about making the world a better place, I am interested in working with mission-driven, climate-conscious companies that provide support and mentorship for new engineers. In my free time, you can find me reading, doing cardio, and spending time with friends and family. I am open to collaborating on side projects while searching for a full-time opportunity."
 }
 
 const skills = [
@@ -73,22 +73,22 @@ const skills = [
     },
     {
         title: 'Backend',
-        tools: 'Node.js, Express.js, MongoDB, MySQL,'
+        tools: 'Node.js, Express.js, MongoDB, MySQL'
     },
     {
         title: 'Deployment',
-        tools: 'Heroku, '
+        tools: 'GitHub Pages, Heroku, Netlify'
     }
 ]
 
 const services = [
     {
         title: 'UI & UX Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+        description: "As a freelance UI/UX designer, I conduct research, create wireframes, mockups and interactive prototypes, and collaborate with clients and developers to deliver a polished end-product that meets their needs and goals. My ultimate goal is to create a seamless user experience that ensures client's satisfaction and success.",
     },
     {
-        title: 'Squarespace Design & Implementation',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
+        title: 'Squarespace Design & Build',
+        description: "I specialize in creating visually appealing and functional websites on the Squarespace platform, including design, customization, e-commerce integration and SEO optimization. I also provide training and support to clients on how to manage their website after its launch. My goal is to deliver a website that effectively represents the client's brand and achieves their business objectives.",
     },
 
 ]
